@@ -1,0 +1,31 @@
+[project]
+name = "twins-embedding"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Patrick Armstrong", email = "patrick.james.1998@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+twins-embedding = "twins_embedding:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# === Tools ===
+
+# --- LSP: BasedPyRight ---
+[tool.basedpyright]
+
+# --- CMP: Ruff ---
+[tool.ruff]
+
+# --- Lint: Ruff ---
+[tool.ruff.lint]
+
+# --- Format: Ruff ---
+[tool.ruff.format]
